@@ -1,0 +1,454 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    background-color: rgba(255, 240, 220, 0.25);
+    max-width: 1920px;
+    /* Hide Scrollbar for IE, Edge, and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
+}
+/* Hide Scrollbar for Chrome & Safari */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+.inline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    margin:auto;
+    align-items: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+.ui-selectmenu-text {
+    color: #db2320;
+}
+
+.ui-selectmenu-icon {
+    visibility: hidden;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    color: #db2320;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #0026d4;
+}
+
+
+/* .right-panel, 
+.left-panel {
+    width: 5%;
+    height: 55vh;
+    max-height: 1920px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.right-panel {
+    background: #0026d4;
+    border-radius: 50% 0 0 75%;
+}
+
+.left-panel {
+    background: #db2320;
+    border-radius: 0 50% 75% 0;
+} */
+
+.header-wrapper {
+    background-color: rgb(255, 255, 255);
+}
+
+.ad-img {
+    width: 80%
+}
+.familia-logo {
+    filter: invert(43%) sepia(78%) saturate(379%) hue-rotate(73deg) brightness(91%) contrast(85%);
+}
+.header,
+.selectMenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+.divider {
+    height: 50px;
+    width: 100%;
+    /* background-color: #0024d4; */
+    background: repeating-linear-gradient(
+    to bottom,
+    #0024d4 0px, 
+    #0024d4 20px,
+    #fff 25px,
+    #ff0000 30px,
+    #ff0000 50px
+  );
+}
+.divider_s {
+    height: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(
+    to bottom,
+    #0024d4 0px, 
+    #0024d4 5px,
+    #fff 10px,
+    #ff0000 10px,
+    #ff0000 15px
+  );
+}
+.selectMenu {
+    justify-content: space-evenly;
+}
+
+#heading {
+    width: auto;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#header-img {
+    width: 245px;
+    margin-left: 15px;
+}
+
+.main-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fcfdff;
+}
+#categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0;
+}
+
+#hero {
+    font-size: 52px;
+    text-align: left;
+    color: #ffff;
+}
+.hero__wrapper {
+    width: 80%;
+    background-image: url("/Images/PDM_OPEN.png");
+    height: 600px;
+    background-position: center;
+}
+.hero__container {
+    width: 100%;
+    height: 100%;
+    background-color: #69010100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero__container-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0000001e;
+    height: 100%;
+}
+.hero__container-text > p {
+    width: 80%;
+    font-size: 36px;
+    color: white;
+}
+.title {
+    font-weight: 800;
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+/* Obsolete Code
+.ui-slider .ui-slider-range {
+    background: repeating-linear-gradient(
+		to bottom,
+        #0026d4 0px,
+        #fcfdff 10px,
+        #db2320 15px,
+        #db2320 20px
+	  );
+}
+
+.ui-button:hover, .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-focus {
+    background: #bdc1d4;
+    border-color: #0026d4;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+    background: #bdc1d4;
+    border-color: #0026d4;
+} */
+
+#Search {
+    width: 70px;
+    height: 30px;
+    background-color: #548CFF;
+    border-style: none;
+    color: #ffff;
+    border-radius: 15px;
+    font-size: 15px;
+    margin: auto 0;
+}
+#Search:hover {
+    cursor: pointer;
+}
+
+#Placeholder {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    margin: auto;
+    height: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul > li {
+    width: 50%;
+    list-style-type: none;
+}
+
+.card {
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 15px;
+    border-style: none;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.158);
+    height: 45vh;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: 50% 90%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price-list {
+    list-style: none;
+    list-style-type: none;
+}
+#finance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.speed-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#price {
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.priceTitle {
+    margin: 0;
+    font-size: 18px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+#low,#medium-low,#medium,#max {
+    display: flex;
+}
+.budget-select {
+    flex-direction: column;
+
+}
+#Type {
+    flex-wrap: wrap;
+    width: 33%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+#speedType {
+    display: flex;
+    justify-content: center;
+}
+#budget-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.priceInput {
+    width: 100%;
+    text-align: center;
+}
+input[type='radio'] {
+    margin: 5px 0;
+}
+input[type='checkbox'] {
+    margin-left: 3px;
+    margin-right: 10px;
+}
+label {
+    margin: 5px 0;
+    font-size: 18px;
+}
+label[for="purchase"],
+label[for="finance"] {
+    margin: 0;
+}
+h2 {
+    margin: 1px;
+}
+.info {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    color: black;
+}
+.carImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.vehicleImg {
+    overflow: hidden;
+    height: fit-content; 
+    width: 100%;
+    border-radius: 0;
+    background-color: #fff;
+    color: black;
+}
+.speed-container,
+.Occupacy-container {
+    padding: 0 15px;
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3 {
+    margin: 0;
+}
+h1.carName {
+    margin: 0 20px;
+    font-size: 24px;
+}
+.OccuDiv,
+.speedLevelContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h2.title {
+    margin: 0;
+    font-size: 20px;
+}
+.left-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: first baseline;
+}
+.paymentOptionDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.minMax {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+#pricebox {
+    display: flex;
+}
+input[name="minMaxPrice"] {
+    margin-bottom: 5px;
+}
+.OccuDiv {
+    width: 14%;
+}
+form[title="Car Type"] {
+    width: 83%;
+}
+#paymentOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
